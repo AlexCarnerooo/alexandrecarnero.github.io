@@ -4,9 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '',
-  assetPrefix: '',
-  trailingSlash: true,
+  basePath: '/alexandrecarnero.github.io',
+  assetPrefix: '/alexandrecarnero.github.io/',
 };
 
 export default nextConfig; 
