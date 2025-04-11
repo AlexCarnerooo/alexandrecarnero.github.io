@@ -4,11 +4,14 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/', // Base URL para GitHub Pages con dominio personalizado
+  base: '/alexandrecarnero.github.io/', // Base URL para GitHub Pages
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    sourcemap: false,
-    minify: true,
-  }
+    sourcemap: true,
+  },
+  server: {
+    port: 3000,
+    open: true,
+  },
 }) 
